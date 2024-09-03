@@ -195,7 +195,7 @@ jobs:
 
     steps:
     - name: Download source
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: internal-source
 
@@ -276,7 +276,7 @@ jobs:
 
     steps:
     - name: Download source
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: internal-source
 
@@ -393,7 +393,7 @@ jobs:
 
     steps:
     - name: Download source
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: internal-source
 
@@ -479,7 +479,7 @@ jobs:
 
     steps:
     - name: Download source
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: internal-source
 
@@ -679,7 +679,7 @@ jobs:
 
     steps:
     - name: Download source
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
       with:
         name: internal-source
 
@@ -874,7 +874,7 @@ jobs:
 
     steps:
     - name: Download all bundles
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
 
     - name: Calculate checksums
       run: |
@@ -927,7 +927,7 @@ jobs:
 
     steps:
     - name: Download all bundles
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4.1.7
 
     - name: Setup steamcmd
       uses: CyberAndrii/setup-steamcmd@v1
